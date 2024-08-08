@@ -1,3 +1,5 @@
+'use client';
+
 import React from 'react';
 import { GetServerSideProps } from 'next';
 import { useSession, getSession } from 'next-auth/react';
